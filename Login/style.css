@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+:root {
+  --primary: #141414;
+  --light: #F3F3F3;
+  --dark: #686868;
+}
+
+.contain {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--primary);
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  background: #666;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--primary);
+}
+.heading {
+  text-align: center;
+  padding-bottom: 2 rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.heading span {
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+  .container {
+
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #ff3d29;
+  }
+  
+  .error-message {
+    color: #ff3d29;
+    margin-top: 10px;
+  }
+  
+
+  .price .box-contain {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27.5em, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .price .box-contain .box {
+    padding: 2rem 0;
+    background: #333;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .price .box-contain .box:hover {
+    transform: scale(1.03);
+  }
+  .price .box-contain .box .title {
+    background: var(--main-color);
+    color: #fff;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+  }
+  .price .box-contain .box .price {
+    color: #fff;
+    padding-top: 2rem;
+    font-size: 4rem;
+  }
+  
+  .price .box-contain .box ul {
+    list-style-type: none;
+    padding: 1rem 0;
+  }
+  .price .box-contain .box ul li {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #eee;
+  }
+  .price .box-contain .box ul li i {
+    color: var(--main-color);
+    padding-right: 0.5rem;
+  }
